@@ -8,11 +8,15 @@
 import UIKit
 
 class ThirdVC: UIViewController {
-
+    let myView = UIView()
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        myView.translatesAutoresizingMaskIntoConstraints = false
+        self.myView.frame = CGRect(x: 0, y: 0, width: 1000, height: 90)
+        myView.backgroundColor = .systemGray2
+        self.view.addSubview(myView)
+        
     }
     
 

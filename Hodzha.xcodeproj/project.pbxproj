@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		C00AC7B3286F828F0022C269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00AC7B2286F828F0022C269 /* AppDelegate.swift */; };
 		C00AC7B5286F828F0022C269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00AC7B4286F828F0022C269 /* SceneDelegate.swift */; };
-		C00AC7B7286F828F0022C269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00AC7B6286F828F0022C269 /* ViewController.swift */; };
 		C00AC7BA286F828F0022C269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00AC7B8286F828F0022C269 /* Main.storyboard */; };
 		C00AC7BC286F82900022C269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00AC7BB286F82900022C269 /* Assets.xcassets */; };
 		C00AC7BF286F82900022C269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00AC7BD286F82900022C269 /* LaunchScreen.storyboard */; };
+		C00AC7C7286F83580022C269 /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00AC7C6286F83580022C269 /* mainVC.swift */; };
+		C00AC7C9286F84180022C269 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00AC7C8286F84180022C269 /* SecondVC.swift */; };
+		C00AC7CB2870984D0022C269 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00AC7CA2870984D0022C269 /* ThirdVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C00AC7AF286F828F0022C269 /* Hodzha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hodzha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00AC7B2286F828F0022C269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C00AC7B4286F828F0022C269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C00AC7B6286F828F0022C269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C00AC7B9286F828F0022C269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C00AC7BB286F82900022C269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C00AC7BE286F82900022C269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C00AC7C0286F82900022C269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00AC7C6286F83580022C269 /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		C00AC7C8286F84180022C269 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		C00AC7CA2870984D0022C269 /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				C00AC7B2286F828F0022C269 /* AppDelegate.swift */,
 				C00AC7B4286F828F0022C269 /* SceneDelegate.swift */,
-				C00AC7B6286F828F0022C269 /* ViewController.swift */,
+				C00AC7C6286F83580022C269 /* mainVC.swift */,
+				C00AC7C8286F84180022C269 /* SecondVC.swift */,
+				C00AC7CA2870984D0022C269 /* ThirdVC.swift */,
 				C00AC7B8286F828F0022C269 /* Main.storyboard */,
 				C00AC7BB286F82900022C269 /* Assets.xcassets */,
 				C00AC7BD286F82900022C269 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C00AC7B7286F828F0022C269 /* ViewController.swift in Sources */,
 				C00AC7B3286F828F0022C269 /* AppDelegate.swift in Sources */,
 				C00AC7B5286F828F0022C269 /* SceneDelegate.swift in Sources */,
+				C00AC7C9286F84180022C269 /* SecondVC.swift in Sources */,
+				C00AC7C7286F83580022C269 /* mainVC.swift in Sources */,
+				C00AC7CB2870984D0022C269 /* ThirdVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
